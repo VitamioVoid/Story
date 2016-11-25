@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleColor">#104E8B</color>
+    <color name="contentBackground">#DBDBDB</color>
+    <color name="white">#ffffff</color>
+    <color name="subTitleColor">#ff888888</color>
+    <color name="infoTextColor">#898989</color>
+    <color name="textTitleColor">#3b3b3b</color>
+    <color name="aliasColor">#3263a3</color>
+    <color name="storyContentColor">#4b4845</color>
+    <color name="exitColor">#EE2C2C</color>
+</resources>

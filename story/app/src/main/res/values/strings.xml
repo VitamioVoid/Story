@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">story</string>
+    <string name="user_name">账 号：</string>
+    <string name="user_alias">昵 称：</string>
+    <string name="user_password">密 码：</string>
+    <string name="user_gender">性 别：</string>
+    <string name="user_email">邮 箱：</string>
+    <string name="user_birthday">生 日：</string>
+    <string name="user_signature">签 名：</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+
+    <string name="register">注  册</string>
+    <string name="login">登  录</string>
+    <string name="login_hint">没有账号？点此注册</string>
+    <string name="sub_title">细说我们的故事</string>
+    <string name="modify_pwd">修改密码</string>
+
+    <string name="newest">最新</string>
+    <string name="most_hot">最热</string>
+    <string name="old_story">往事杂谈</string>
+    <string name="mine_story">我的故事</string>
+    <string name="browser_log">浏览记录</string>
+    <string name="personal_info">个人信息</string>
+    <string name="sys_settings">系统设置</string>
+    <string name="exit">退  出</string>
+
+    <string name="content_exp">出门一笑莫心哀，浩荡襟怀到处开。时事难从无过立，达官非自有生来。风涛回首空三岛，尘壤从头数九垓。休信儿童轻薄语，嗤他赵老送灯台。
+        力微任重久神疲，再竭衰庸定不支。苟利国家生死以，岂因祸福避趋之。谪居正是君恩厚，养拙刚于戍卒宜。戏与山妻谈故事，试吟断送老头皮。</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

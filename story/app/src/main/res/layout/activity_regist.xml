@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qf.story.view.StoryTitle
+        android:id="@+id/mRegisterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/mRegisterContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/contentBackground"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mPortrait"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:onClick="upLoadPortrait"
+                android:src="@drawable/icon_portrait" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.qf.story.view.Editor
+                android:id="@+id/mUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.qf.story.view.Editor
+                android:id="@+id/mUserAlias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.qf.story.view.Editor
+                android:id="@+id/mUserPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@color/titleColor"
+            android:text="@string/register"
+            android:onClick="clickRegister"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qf.story.view.StoryTitle
+        android:id="@+id/mCenterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/contentBackground"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mPortrait"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:onClick="modifyPortrait"
+                android:src="@drawable/icon_portrait" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.qf.story.view.InfoText
+                android:id="@+id/mUserName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <com.qf.story.view.InfoText
+                android:id="@+id/mUserAlias"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <com.qf.story.view.InfoText
+                android:id="@+id/mUserGender"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <com.qf.story.view.InfoText
+                android:id="@+id/mUserEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <com.qf.story.view.InfoText
+                android:id="@+id/mUserBirthDay"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pwdModify"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@color/titleColor"
+            android:text="@string/modify_pwd"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
